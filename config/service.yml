@@ -1,0 +1,8 @@
+test: &default
+  url: https://sandbox.moip.com.br/v2
+
+development:
+  <<: *default
+
+production:
+  <<: *default
